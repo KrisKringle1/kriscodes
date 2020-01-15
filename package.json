@@ -1,10 +1,12 @@
 {
   "name": "kriscodes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test Description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "npm-run-all --silent --parallel dev:*"
   },
   "repository": {
     "type": "git",
