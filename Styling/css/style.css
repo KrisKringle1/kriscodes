@@ -13,7 +13,7 @@ body {
     height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-    color: white;
+    color: #888;
 	font-size: 16px;
 	line-height: 1.6em;
     background-color: #fff;
@@ -515,6 +515,14 @@ Parallax
 /* ===========================
 --- Elements
 ============================ */
+.skills-button{
+    color: white;
+    margin-top: 35px;
+}
+.php {
+    margin-top: 16px;
+}
+
 
 .btn {
 
